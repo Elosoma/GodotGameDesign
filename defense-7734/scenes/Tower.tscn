@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ybshsctao4f8"]
+
+[ext_resource type="Script" uid="uid://dj8mkm73y3c56" path="res://scripts/tower.gd" id="1_7itwv"]
+[ext_resource type="PackedScene" uid="uid://b4vb2o6un6iob" path="res://scenes/Projectile.tscn" id="2_kl3vk"]
+
+[node name="Tower" type="Node2D" unique_id=427962414]
+script = ExtResource("1_7itwv")
+projectile_scene = ExtResource("2_kl3vk")

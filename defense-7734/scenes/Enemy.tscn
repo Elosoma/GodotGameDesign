@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://8ohp2hgifn4r"]
+
+[ext_resource type="Script" uid="uid://ctrlg35i2x3tr" path="res://scripts/enemy.gd" id="1_3gvst"]
+
+[node name="Enemy" type="Node2D" unique_id=388754525]
+script = ExtResource("1_3gvst")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=8087438]
+
+[node name="Label" type="Label" parent="." unique_id=42598838]
+offset_right = 40.0
+offset_bottom = 23.0

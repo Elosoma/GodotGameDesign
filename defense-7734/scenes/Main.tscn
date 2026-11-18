@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bir8enmboqyyk"]
+
+[ext_resource type="PackedScene" uid="uid://8ohp2hgifn4r" path="res://scenes/Enemy.tscn" id="1_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://ybshsctao4f8" path="res://scenes/Tower.tscn" id="2_rarhs"]
+[ext_resource type="PackedScene" uid="uid://b4vb2o6un6iob" path="res://scenes/Projectile.tscn" id="3_vcsgt"]
+
+[node name="Main" type="Node2D" unique_id=300123946]
+
+[node name="Enemy" parent="." unique_id=388754525 instance=ExtResource("1_0bbpv")]
+
+[node name="Tower" parent="." unique_id=427962414 instance=ExtResource("2_rarhs")]
+
+[node name="Projectile" parent="." unique_id=458087642 instance=ExtResource("3_vcsgt")]
